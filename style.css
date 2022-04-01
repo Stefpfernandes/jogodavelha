@@ -1,0 +1,52 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(105, 105, 105);
+}
+
+h1{
+    margin: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    color: #eee;
+}
+
+body{
+    text-align: center;
+}
+
+.quadrado{
+    text-align: center;
+    width: 55px;
+    background: #eee;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 35px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    box-shadow: 0px 5px rgba(206, 206, 206, 0.1);
+}
+
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    background: rgb(255, 0, 0);
+    border-radius: 20px;
+    color: #eee;
+    cursor: pointer;
+    box-shadow: 0px 5px rgba(209, 0, 0, 0.3);
+}
